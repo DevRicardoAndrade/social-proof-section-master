@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Social proof section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body{
+        padding: 5%;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        flex-direction: row;
+        font-family: 'League Spartan', sans-serif;
+        flex-wrap: wrap;
+        gap:35px;
+      }
+      .card{
+        background-color: hsl(300, 43%, 22%);
+        width: 330px;
+        height: 235px;
+        border-radius: 7.5px;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+      .card-rating{
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 7.5px;
+        height: 45px;
+        padding: 5px;
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        
+      }
+      .group{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px;
+      }
+      .card-rating h4{
+        margin: 0;
+        margin-top: 9px;
+        color:hsl(300, 43%, 22%);;
+      }
+      .group-stars{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+      .user-picture img{
+        margin-top:25px;
+        margin-left: 25px;
+        border-radius: 100%;
+        width: 55px;
+      }
+      .card h5{
+        margin-left: 25px;
+        color: white;
+        font-size: 20px;
+        font-family: 'League Spartan', sans-serif;
+      }
+      .title{
+        margin-top: 5px;
+        font-size: 18px;
+        font-weight: 500;
+        color: hsl(333, 80%, 67%);
+        font-family: 'League Spartan', sans-serif;
+      }
+      .message{
+        margin: 0;
+        font-size: 18px;
+        margin-left: 25px;
+        color: white;
+        text-align:start;
+        width: 285px;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 500;
+        padding: 5px;
+        line-height: 20px;
+          }
+      .text{
+        text-align: start;
+        font-size: 19px;
+        font-family: 'League Spartan', sans-serif;
+        color: hsl(303, 10%, 53%);
+        width: 450px;
+      }
+      .name{
+        text-align: start;
+        font-size: 45px;
+        font-weight: 700;
+        color: hsl(300, 43%, 22%);
+        font-family: 'League Spartan', sans-serif;
+        width: 290px;
+      }
+      .group-rating{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 10px;
+      }
+      .group-card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap:35px;
+      }
+
+      @media screen and (max-width:450px) {
+        body{
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          align-items: center;
+        }
+        .card{
+          width: 330px;
+          height: 235px;
+      }
+      .card-rating{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 65px;
+        width: 330px;
+        gap: 10px;
+              }
+      .card-rating h4{
+        margin: 0;
+        margin-top: 9px;
+      }
+      .group-stars{
+        margin-top: 5px;
+        gap: 10px;
+      }
+      .user-picture img{
+        margin-top:25px;
+        margin-left: 25px;
+        width: 55px;
+      }
+      .card h5{
+        margin-left: 25px;
+        font-size: 20px;
+      }
+      .title{
+        margin-top: 5px;
+        font-size: 18px;
+      }
+      .message{
+        margin: 0;
+        font-size: 18px;
+        margin-left: 25px;
+        width: 285px;
+        line-height: 20px;
+          }
+      .text{
+        text-align: center;
+        font-size: 19px;
+        width: 290px;
+        
+      }
+      .name{
+        text-align: center;
+        font-size: 45px;
+      }
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="group">
+      <div class="name">
+        10,000+ of our user love our produtcs.
+      </div>
+      <div class="text">
+        We only provide great products combined with excellent costumer service.
+        See whot our satisfied costumers are saying about our services.
+      </div>
+  </div>
+  <div class="group-rating">
+    <div class="card-rating">
+      <div class="group-stars">
+        <img src="./images/icon-star.svg"/>
+        <img src="./images/icon-star.svg"/>
+        <img src="./images/icon-star.svg"/>
+        <img src="./images/icon-star.svg"/>
+        <img src="./images/icon-star.svg"/>
+      </div>
+      <h4>Rated 5 Stars in Reviews</h4>
+    </div>
+    <div class="card-rating">
+      <div class="group-stars">
+        <img src="./images/icon-star.svg"/>
+        <img src="./images/icon-star.svg"/>
+        <img src="./images/icon-star.svg"/>
+        <img src="./images/icon-star.svg"/>
+        <img src="./images/icon-star.svg"/>
+      </div>
+      <h4>Rated 5 Stars in Report Guru</h4>
+    </div>
+    <div class="card-rating">
+      <div class="group-stars">
+        <img src="./images/icon-star.svg"/>
+        <img src="./images/icon-star.svg"/>
+        <img src="./images/icon-star.svg"/>
+        <img src="./images/icon-star.svg"/>
+        <img src="./images/icon-star.svg"/>
+      </div>
+      <h4>Rated 5 Stars in Best Tech</h4>
+    </div>
+  </div>
+  <div class="group-card">
+    <div class="card">
+      <div class="user-picture">
+        <img src="./images/image-colton.jpg"/>
+      </div>
+      <h5>Colton Smith
+        <div class="title">
+          Verified Buyer
+        </div>
+      </h5>
+      <p class="message">
+        " We needed the same printed design as the one we had ordered a week prior.
+        Not only did they find the original order, but we also received it in time.
+        Excellent! "
+      </p>
+    </div>
+    <div class="card">
+      <div class="user-picture">
+        <img src="./images/image-irene.jpg"/>
+      </div>
+      <h5>Irene Roberts
+        <div class="title">
+          Verified Buyer
+        </div>
+      </h5>
+      <p class="message">
+        " Costumer service in always excellent and very quick turn around.
+        Completely delighted with the sinplicity of the purchase and the speed of delivery. "
+      </p>
+    </div>
+    <div class="card">
+      <div class="user-picture">
+        <img src="./images/image-anne.jpg"/>
+      </div>
+      <h5>Anne Wallace
+        <div class="title">
+          Verified Buyer
+        </div>
+      </h5>
+      <p class="message">
+        " Put on order with this company and con only praise then for the very high standard.
+        Will definitely use them again and recommended them to everyone! "
+      </p>
+    </div>
+  </div>
+  </body>
+</html>
